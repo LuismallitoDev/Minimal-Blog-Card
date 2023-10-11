@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,17 +15,17 @@
 }
 .card{
     background-color: #fff;
-    width: 50%;
+    width: 60%;
     height: fit-content;
-    padding: 20px;
+    padding: 16px 16px 20px;
     border-radius: 10px;
-    max-width: 373px;
+    max-width: 376px;
     box-shadow: 0px 30px 100px 0px rgba(0, 0, 0, 0.1);
 }
 .card img{
     width: 100%;
     border-radius: 10px;
-    margin: 0 0 7px;
+    margin-bottom: 16px;
 }
 #design{
     display: inline-block;
@@ -33,32 +33,30 @@
     background-color: #E6D6FC;
     font-size: 10px;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 5px 16px;
     border-radius: 10px;
-    margin-bottom: 10px;
-}
-.text{
-    margin: 10px 0 ;
+    margin-bottom: 16px;
 }
 .text h3{
     font-size: 18px;
     color: #20293A;
-    margin-bottom: 5px ;
-
+    margin-bottom: 6px ;
 }
 hr{
-    width: calc(100% + 40px);
-    margin-left: -20px;
-    color: #6C727F;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    color: rgb(108, 114, 127);
+    margin-bottom: 20px;
 }
 .text p{
     font-size: 14px;
     color: #6C727F;
-    line-height: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 #autor{
     display: inline-block;
-    margin: 20px 0 0;
     font-size: 12px;
     color: #6C727F;
 }
